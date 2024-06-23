@@ -5,8 +5,8 @@ cd /opt/authentik
 
 # Install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3.11 get-pip.py
+python3.12 get-pip.py
 rm -rf get-pip.py
 
 # Install virtualenv
-python3.11 -m pip install virtualenv
+python3.12 -m pip install virtualenv
