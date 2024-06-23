@@ -19,10 +19,10 @@ cd $STARTING_DIR
 rm -rf Python-3.12.4.tgz Python-3.12.4
 
 # Install NodeJS 20
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+apt-get install -y nodejs
 
 # Install Go 1.22.4
 wget https://golang.org/dl/go1.22.4.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.22.4.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.22.4.linux-amd64.tar.gz
 rm -rf go1.22.4.linux-amd64.tar.gz
